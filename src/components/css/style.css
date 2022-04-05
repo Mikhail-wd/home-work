@@ -1,0 +1,158 @@
+.mainFrame {
+    padding: 0;
+    margin:0 auto;
+    width: 1440px;
+    min-height: 1364px;
+    overflow: hidden;
+}
+.header {
+    width: auto;
+    height: 220px;
+    text-align: center;
+}
+.header h1 {
+    padding-top: 64px;
+    color:#384758;
+    font: 48px Poppins, sans-serif, bold;
+    line-height: 20px;
+    font-weight: 600;
+}
+.header p {
+    font: 18px Poppins, sans-serif;
+    font-weight: 400;
+    margin-top: 0px;
+    color:#606F81;
+    line-height: 27px;
+    padding-top: 10px;
+}
+.slider {
+    z-index: 1;
+}
+.arrows{
+    width: auto;
+    height: 48px;
+    padding-bottom: 20px;
+}
+.wierdShapes{
+    width:200px;
+    position: relative;
+    z-index: -1;
+    right: -1138px;
+    top:-34px;
+}
+.arrows img:first-child {
+    margin-left: 46%;
+}
+.arrows img:nth-child(2) {
+    padding-left: 19px;
+}
+.wrap{
+    width:1315px;
+    overflow: hidden;
+}
+.faceTablet {
+    display:flex;
+    transition-duration: 700ms;    
+    
+}
+.user{
+    height: 375px;
+    margin:0 50px 0px 0px;
+}
+.user h2 {
+    font: 24px Poppins, sans-serif;
+    color:#384758 ;
+    margin-top: 19px;
+}
+.user p {
+    font: 18px Poppins, sans-serif  ;
+    color:#606F81 ;
+    margin-top: -20px;
+}
+a {
+    text-decoration: none;
+}
+.borderDown {
+    height: 290px;
+    border-bottom: white 5px solid;
+}
+:target {
+    color: #FE8700;
+    border-bottom: #FE8700 5px solid;
+}
+.user1 {
+    color: #FE8700;
+}
+.user img{
+    width: 290px;
+    height: auto;
+}
+.active img{
+    border-bottom: #FE8700 5px solid;
+}
+.active p, .active h2 {
+    color:#FE8700;
+}
+.rightCol {
+    width: 960px;
+    display: inline-block;
+    margin-left: 50px;
+}
+.rightCol h3{
+    font: 48px Poppins, sans-serif, bold;
+    color: #384758;
+}
+.leftCol {
+    float: left;
+    margin-top: 60px;    
+    width: 300px;
+    display: inline-block;
+    margin-left: 35px;
+}
+.wierdShapesBottom{
+   position: relative;
+   right:200px;
+   top: 115px;
+}
+.leftCol img{
+    position:relative;
+    left:180px;
+}
+.post {
+    margin: 19px 0px;
+}
+.post p:first-child{
+    padding-bottom: 3px;
+    margin: 0px;
+    font: 24px Poppins, sans-serif;
+    color: #384758;
+}
+.post p:last-child {
+    padding-top: 3px;
+    font: 20px Poppins, sans-serif;
+    color: #606F81;
+    margin: 0px;
+}
+
+.borderDown {
+    height: 290px;
+    border-bottom: white 5px solid;
+}
+:target{
+    border-bottom: #FE8700 5px solid;
+}
+:target p{
+    color: #FE8700;
+}
+
+:target h2 {
+    color: #FE8700;
+}
+
+.none{
+    display:none;
+}
+
+
+
+
